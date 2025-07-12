@@ -1,0 +1,45 @@
+canvas {
+  border: 1px solid black;
+  background-color: black;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: #585454;
+}
+
+table {
+  display: flex;
+  margin: 50px auto;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+td {
+  font-family: monospace;
+  border-style: solid;
+  padding: 15px;
+  background-color: #958686;
+  border: 1px solid white; 
+}
+
+td div {
+  display: inline-block;
+}
+
+#lives {
+  color: darkgreen;
+}
+
+#restart {
+  font-family: monospace;
+  font-size: 20px;
+  color: white;
+  background-color: maroon;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+
+}
